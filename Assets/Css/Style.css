@@ -1,7 +1,95 @@
-*{
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* .open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+} */
+
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
 }
+
+:root {
+    /* Colors */
+    --oceanBlue: #0072AB;
+    --lightBlue: #E1E5F2;
+    --teal: #58C4C8;
+    --buttonBlue: #015C8A;
+    --discountYellow: #FFD900;
+    --heartRed: #C80000;
+
+    /* Distance */
+    --smallSpacer: 15px;
+    --mediumSpacer: 25px;
+    --largeSpacer: 50px;
+
+    /* Font size */
+    --h1: 24px;
+    --h2: 20px;
+    --h3: 16px;
+    --bigP: 14px;
+    --smallP: 10px;
+    --icons: 30px;
+
+    /* Image size */
+    --sponsorImage: 181px;
+    --artistImage: 191px;
+}
+
+/* VIGTIGT KOD TIL 390 brede :) */
+/* HER KODER EMILIA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HER KODER Tobias */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HER KODER Thomas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HER KODER Rikke */
