@@ -193,3 +193,39 @@ body{
     grid-column: 2 / 2;
     grid-column-start: 1;
 }
+
+
+/* Her er sponsor siden */
+.sponsorBackground{
+    background: var(--lightBlue);
+    border-bottom: 3px solid var(--oceanBlue);
+    padding-top: 95px;
+}
+
+.sponsorBackground h2 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: var(--h2);
+    margin-bottom: var(--smallSpacer);
+}
+
+.sponsorBackground p {
+    margin: 0;
+    font-size: var(--bigP);
+    margin-left: 10px;
+    margin-bottom: var(--mediumSpacer);
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 10px;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.sponsors img {
+    width: var(--sponsorImage);
+    margin-top: 25px;
+}
