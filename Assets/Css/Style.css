@@ -39,6 +39,10 @@ body{
     --bigP: 14px;
     --smallP: 10px;
     --icons: 30px;
+
+    /* Image size */
+    --sponsorImage: 181px;
+    --artistImage: 191px;
 }
 
 /* VIGTIGT KOD TIL 390 brede :) */
