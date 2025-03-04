@@ -67,11 +67,30 @@ body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    width: 248px;
+    width: 244px;
     height: 51px;
     border-radius: 15px;
     box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
 
+.populaereKunstner {
+    background-color: var(--lightBlue);
+}
+
+.popKunstner img{
+    width: 248px;
+}
+
+.popKunstner{
+    display: grid;
+    justify-content: center;
+}
+
+.navnTid {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--oceanBlue);
+    border-radius: 0  0 15px 15px;
 }
 
 
