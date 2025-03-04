@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* .open-sans-<uniquifier> {
-    font-family: "Open Sans", sans-serif;
+    
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -12,6 +12,7 @@
 
 *{
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 body{
@@ -47,7 +48,31 @@ body{
 
 /* VIGTIGT KOD TIL 390 brede :) */
 /* HER KODER EMILIA */
+.introTexst p {
+    margin: var(--smallSpacer) 0 var(--smallSpacer);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    text-decoration-color: white;
+    background-color: var(--buttonBlue);
+    font-size: var(--h2);
+    font-weight: bolder;
+    inline-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 248px;
+    height: 51px;
+    border-radius: 15px;
+    box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.1);
 
+}
 
 
 
