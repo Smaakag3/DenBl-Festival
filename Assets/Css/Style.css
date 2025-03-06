@@ -78,7 +78,97 @@ body{
 
 
 /* HER KODER Thomas */
-
+.maps-body{
+    width: 390px;
+}
+.top-soege {
+    display: flex;
+    background-color: var(--lightBlue);
+    padding: 10px;
+    border-bottom: 3px solid var(--oceanBlue);
+    width: 390px;
+    justify-content: space-between;
+    align-items: center;
+}
+.soegefunktion {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #F1F1F1;
+    height: 30px;
+}
+.soegefunktion input {
+    width: 80px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.soegefunktion input::placeholder {
+    color: lightgray;
+}
+.soegefunktion img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+    color: #929292;
+}
+/* Kort, placering og telefon */
+.kort{
+    display: flex;
+    justify-content: center;
+    padding-top: var(--smallSpacer);
+}
+.kort img{
+    width: 350px;
+}
+.kort-adresse{
+    width: 390px;
+    padding-left: 1.1rem;
+}
+.kort-adresse h2{
+    font-size: var(--h2);
+}
+.adr-tlf{
+    display: grid;
+}
+.adr-tlf1{
+    display: flex;
+    align-items: center;
+}
+.adr-tlf1 img{
+    width: 20px;
+    height: 24px;
+}
+.adr-tlf1, .adr-tlf2{
+    padding-left: var(--largeSpacer);
+    font-size: var(--bigP);
+}
+.adr-tlf2{
+    display: flex;
+    align-items: center;
+}
+.adr-tlf2 img{
+    width: 20px;
+    height: 24px;
+}
+/* Øl osv... */
+.drikkevarer{
+    padding-top: var(--smallSpacer);
+    padding-left: 1.1rem;
+    width: 390px;
+    font-size: var(--bigP);
+}
+.drikkevarer h2{
+    font-size: var(--h2);
+}
+.items-priser{
+    padding-left: var(--largeSpacer);
+}
 
 
 
