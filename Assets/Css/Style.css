@@ -48,8 +48,14 @@ body{
 
 /* VIGTIGT KOD TIL 390 brede :) */
 /* HER KODER EMILIA */
+.introTexst , .introPogram , .kortIntro{
+    margin: 0 10px 0;
+}
 .introTexst p {
     margin: var(--smallSpacer) 0 var(--smallSpacer);
+}
+.introPogram p {
+    margin: var(--smallSpacer) 0 var(--mediumSpacer);
 }
 .buttonContainer {
     display: flex;
@@ -71,10 +77,12 @@ body{
     height: 51px;
     border-radius: 15px;
     box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--largeSpacer);
 }
 
 .populaereKunstner {
     background-color: var(--lightBlue);
+    margin: 0 0 0;
 }
 
 .popKunstner img{
@@ -93,6 +101,9 @@ body{
     border-radius: 0  0 15px 15px;
 }
 
+.sponser img{
+    width: 181px;
+}
 
 
 
