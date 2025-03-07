@@ -48,7 +48,7 @@ body{
 
 /* VIGTIGT KOD TIL 390 brede :) */
 /* HER KODER EMILIA */
-.introTexst , .introPogram , .kortIntro{
+.introTexst , .introPogram , .kortIntro , .populaereKunstner h2{
     margin: 0 10px 0;
 }
 .introTexst p {
