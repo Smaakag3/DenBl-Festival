@@ -52,18 +52,29 @@ body {
 
 
 /* HER KODER EMILIA */
-.introTexst , .introPogram , .kortIntro , .populaereKunstner h2{
+header{
+    background-color: var(--oceanBlue);
+}
+header>a>img{
+    margin: 0.5rem;
+    max-width: 100px;
+}
+.heroImg>img{
+max-width: 390px;
+}
+.introTexst , .introProgram , .kortIntro , .populaereKunstner, .sponser h2{
     margin: 0 10px 0;
 }
 .introTexst p {
     margin: var(--smallSpacer) 0 var(--smallSpacer);
 }
-.introPogram p {
+.introProgram p {
     margin: var(--smallSpacer) 0 var(--mediumSpacer);
 }
 .buttonContainer {
     display: flex;
     justify-content: center;
+    margin: 1rem;
 }
 .button {
     text-decoration: none;
@@ -87,6 +98,10 @@ body {
 .populaereKunstner {
     background-color: var(--lightBlue);
     margin: 0 0 0;
+    padding: 0.5rem;
+}
+.populaereKunstner>h2{
+    margin: 0.5rem;
 }
 
 .popKunstner img{
