@@ -48,6 +48,9 @@ body {
 }
 
 /* VIGTIGT KOD TIL 390 brede :) */
+
+
+
 /* HER KODER EMILIA */
 .introTexst , .introPogram , .kortIntro , .populaereKunstner h2{
     margin: 0 10px 0;
@@ -105,60 +108,6 @@ body {
 .sponser img{
     width: 181px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -305,29 +254,302 @@ a{
 
 
 
+/* HER KODER Rikke */
+/* Først styler jeg baggrundsfarven i toppen */
+.userBackground{
+    background: var(--lightBlue);
+    border-bottom: 3px solid var(--oceanBlue);
+    display: flex;
+    justify-content: center;
+    height: 155px;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+/* Her styler jeg bruger billedet  */
+.user {
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid var(--oceanBlue);
+    position: absolute;
+    top: 60%;
+}
+
+.userInfo{
+    display: grid;
+    justify-content: center;
+    margin-bottom: var(--largeSpacer);
+}
+
+.userInfo img {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+}
+
+.userInfo article{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--teal);
+    margin-bottom: var(--smallSpacer);
+    width: 250px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+}
+
+.userInfo p {
+    font-size: var(--h3);
+    margin: 0;
+}
 
 
+/* Cards */
+.favourites {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.favourites h2 {
+    font-size: var(--h2);
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: var(--smallSpacer);
+}
+
+.favourites article {
+    background: var(--oceanBlue);
+    width: 180px;
+    border-radius: 15px;
+    margin-inline: 10px;
+    margin-bottom: var(--mediumSpacer);
+    position: relative;
+}
+
+.artist {
+    width: 180px;
+    height: auto;
+}
+
+.like {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.favourites div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.favourites div p {
+    color: white;
+    font-size: var(--smallP);
+    margin: 0;
+}
+
+.skip {
+    grid-column: 2 / 2;
+    grid-column-start: 1;
+}
 
 
+/* Her er sponsor siden */
+.sponsorBackground{
+    background: var(--lightBlue);
+    border-bottom: 3px solid var(--oceanBlue);
+    padding-top: 95px;
+}
 
+.sponsorBackground h2 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: var(--h2);
+    margin-bottom: var(--smallSpacer);
+}
 
+.sponsorBackground p {
+    margin: 0;
+    font-size: var(--bigP);
+    margin-left: 10px;
+    margin-bottom: var(--mediumSpacer);
+}
 
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 10px;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.sponsors img {
+    width: var(--sponsorImage);
+    margin-top: 25px;
+}
 
 
 
 /* HER KODER Thomas */
+@keyframes hop {
+	0%{
+		transform: scale(100%);
+	}
+	50%{
+		transform: scale(120%);
+	}
+	100%{
+		transform: scale(100%);
+	}
+}
 
+#stjerne{
+    animation: hop 2000ms infinite ease-out;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* HER KODER Rikke */
+main {
+    padding-bottom: var(--largeSpacer);
+}
+.maps-body{
+    width: 390px;
+}
+.top-soege {
+    display: flex;
+    background-color: var(--lightBlue);
+    padding: 10px;
+    border-bottom: 3px solid var(--oceanBlue);
+    width: 390px;
+    justify-content: space-between;
+    align-items: center;
+}
+.soegefunktion {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #F1F1F1;
+    height: 30px;
+}
+.soegefunktion input {
+    width: 80px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.soegefunktion input::placeholder {
+    color: lightgray;
+}
+.soegefunktion img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+    color: #929292;
+}
+/* Kort, placering og telefon */
+.kort{
+    display: flex;
+    justify-content: center;
+    padding-top: var(--smallSpacer);
+}
+.kort img{
+    width: 350px;
+}
+.kort-adresse{
+    width: 390px;
+    padding-left: 1.1rem;
+}
+.kort-adresse h2{
+    font-size: var(--h2);
+}
+.adr-tlf{
+    display: grid;
+}
+.adr-tlf1{
+    display: flex;
+    align-items: center;
+}
+.adr-tlf1 img{
+    width: 20px;
+    height: 24px;
+}
+.adr-tlf1, .adr-tlf2{
+    padding-left: var(--largeSpacer);
+    font-size: var(--bigP);
+}
+.adr-tlf2{
+    display: flex;
+    align-items: center;
+}
+.adr-tlf2 img{
+    width: 20px;
+    height: 24px;
+}
+/* Øl osv... */
+.drikkevarer{
+    padding-top: var(--smallSpacer);
+    padding-left: 1.1rem;
+    width: 390px;
+    font-size: var(--bigP);
+}
+.drikkevarer h2{
+    font-size: var(--h2);
+}
+.items-priser{
+    padding-left: var(--largeSpacer);
+}
+/* nav */
+nav {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 390px;
+    background: #0072AB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-ikon {
+    text-align: center;
+    flex: 1;
+}
+.nav-ikon i {
+    font-size: 24px;
+    display: block;
+    color: white;
+}
+.nav-ikon p {
+    font-size: 12px;
+    color: white;
+    margin: 5px 0 0;
+}
+.nav-cirkel {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 3rem;
+}
+.cirkel {
+    width: 60px;
+    height: 60px;
+    background: #0072AB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.cirkel a{
+    color: white;
+}
+.nav-cirkel i {
+    font-size: 32px;
+}
