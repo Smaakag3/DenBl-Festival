@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* .open-sans-<uniquifier> {
-    font-family: "Open Sans", sans-serif;
+    
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -12,6 +12,7 @@
 
 *{
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 body{
@@ -47,8 +48,62 @@ body{
 
 /* VIGTIGT KOD TIL 390 brede :) */
 /* HER KODER EMILIA */
+.introTexst , .introPogram , .kortIntro , .populaereKunstner h2{
+    margin: 0 10px 0;
+}
+.introTexst p {
+    margin: var(--smallSpacer) 0 var(--smallSpacer);
+}
+.introPogram p {
+    margin: var(--smallSpacer) 0 var(--mediumSpacer);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    text-decoration-color: white;
+    background-color: var(--buttonBlue);
+    font-size: var(--h2);
+    font-weight: bolder;
+    inline-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 244px;
+    height: 51px;
+    border-radius: 15px;
+    box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--largeSpacer);
+}
 
+.populaereKunstner {
+    background-color: var(--lightBlue);
+    margin: 0 0 0;
+}
 
+.popKunstner img{
+    width: 248px;
+}
+
+.popKunstner{
+    display: grid;
+    justify-content: center;
+}
+
+.navnTid {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--oceanBlue);
+    border-radius: 0  0 15px 15px;
+}
+
+.sponser img{
+    width: 181px;
+}
 
 
 
