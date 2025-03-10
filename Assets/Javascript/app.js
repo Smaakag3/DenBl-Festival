@@ -273,7 +273,7 @@ const resultElementTolv = document.querySelector(".programBand");
         <p class="programUndertekst">${bandInfo[11]}</p>
         <a href="#">Spillested: ${bandScene[7]}</a>
         <p class="klokke">Kl: ${bandTid[5]}</p>
-        <p class="pris">Entré pris: ${bandPris[3]}</p>
+        <p class="pris">Entré pris: ${bandPris[3]} Studerende: ${bandPris[2]}</p>
       </article>
 `;
 const resultElementTretten = document.querySelector(".programBand");
