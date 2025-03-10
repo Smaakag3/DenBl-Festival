@@ -48,6 +48,9 @@ body {
 }
 
 /* VIGTIGT KOD TIL 390 brede :) */
+
+
+
 /* HER KODER EMILIA */
 .introTexst , .introPogram , .kortIntro , .populaereKunstner h2{
     margin: 0 10px 0;
@@ -105,60 +108,6 @@ body {
 .sponser img{
     width: 181px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -303,244 +252,143 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* HER KODER Rikke */
+/* Først styler jeg baggrundsfarven i toppen */
+.userBackground{
+    background: var(--lightBlue);
+    border-bottom: 3px solid var(--oceanBlue);
+    display: flex;
+    justify-content: center;
+    height: 155px;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+/* Her styler jeg bruger billedet  */
+.user {
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid var(--oceanBlue);
+    position: absolute;
+    top: 60%;
+}
+
+.userInfo{
+    display: grid;
+    justify-content: center;
+    margin-bottom: var(--largeSpacer);
+}
+
+.userInfo img {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+}
+
+.userInfo article{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--teal);
+    margin-bottom: var(--smallSpacer);
+    width: 250px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+}
+
+.userInfo p {
+    font-size: var(--h3);
+    margin: 0;
+}
+
+
+/* Cards */
+.favourites {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.favourites h2 {
+    font-size: var(--h2);
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: var(--smallSpacer);
+}
+
+.favourites article {
+    background: var(--oceanBlue);
+    width: 180px;
+    border-radius: 15px;
+    margin-inline: 10px;
+    margin-bottom: var(--mediumSpacer);
+    position: relative;
+}
+
+.artist {
+    width: 180px;
+    height: auto;
+}
+
+.like {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.favourites div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.favourites div p {
+    color: white;
+    font-size: var(--smallP);
+    margin: 0;
+}
+
+.skip {
+    grid-column: 2 / 2;
+    grid-column-start: 1;
+}
+
+
+/* Her er sponsor siden */
+.sponsorBackground{
+    background: var(--lightBlue);
+    border-bottom: 3px solid var(--oceanBlue);
+    padding-top: 95px;
+}
+
+.sponsorBackground h2 {
+    margin: 0;
+    margin-left: 10px;
+    font-size: var(--h2);
+    margin-bottom: var(--smallSpacer);
+}
+
+.sponsorBackground p {
+    margin: 0;
+    font-size: var(--bigP);
+    margin-left: 10px;
+    margin-bottom: var(--mediumSpacer);
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 10px;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.sponsors img {
+    width: var(--sponsorImage);
+    margin-top: 25px;
+}
 
 
 
@@ -703,4 +551,3 @@ nav {
 .nav-cirkel i {
     font-size: 32px;
 }
-/* HER KODER Rikke */
