@@ -23,24 +23,24 @@ const bandNavn = [
 
 //Band Billede
 const bandImg = [
-    "./Img/artist/artistSTMariaeSkolesBigBand.jpg",
-    "./Img/artist/artistBronderslevBigBand.jpg",
-    "./Img/artist/artistArosia.jpg",
-    "./Img/artist/artistTimLotharPeterNandeSorenLindholt.jpg",
-    "./Img/artist/artistChrisGreyAndTheBluesSpand.jpg",
-    "./Img/artist/artistNelloAndTheHelpingHandBluesBand.jpg",
-    "./Img/artist/artistJohnnyBurginAndRJMischo.jpg",
-    "./Img/artist/artistJakobVenndt.jpg",
-    "./Img/artist/artistHPLange.jpg",
-    "./Img/artist/artistMaxWolff.jpg",
-    "./Img/artist/artistLineMortensenDuo.jpg",
-    "./Img/artist/artistPeirreDørgeOgNewJungleOrchestra.jpg",
-    "./Img/artist/artistBlåJazzPåUllaT.jpg",
-    "./Img/artist/artistChrisAndersenOgJohannesAaen.jpg",
-    "./Img/artist/artistCortLundeOgAskeStubkjær.jpg",
-    "./Img/artist/artistLateNightJam.jpg",
-    "./Img/artist/artistWashOgKjær.jpg",
-    "./Img/artist/artistLotharNadeOgLindholt.jpg"
+    "./Assets/Img/artist/artistSTMariaeSkolesBigBand.jpg",
+    "./Assets/Img/artist/artistBronderslevBigBand.jpg",
+    "./Assets/Img/artist/artistArosia.jpg",
+    "./Assets/Img/artist/artistTimLotharPeterNandeSorenLindholt.jpg",
+    "./Assets/Img/artist/artistChrisGreyAndTheBluesSpand.jpg",
+    "./Assets/Img/artist/artistNelloAndTheHelpingHandBluesBand.jpg",
+    "./Assets/Img/artist/artistJohnnyBurginAndRJMischo.jpg",
+    "./Assets/Img/artist/artistJakobVenndt.jpg",
+    "./Assets/Img/artist/artistHPLange.jpg",
+    "./Assets/Img/artist/artistMaxWolff.jpg",
+    "./Assets/Img/artist/artistLineMortensenDuo.jpg",
+    "./Assets/Img/artist/artistPeirreDørgeOgNewJungleOrchestra.jpg",
+    "./Assets/Img/artist/artistBlåJazzPåUllaT.jpg",
+    "./Assets/Img/artist/artistChrisAndersenOgJohannesAaen.jpg",
+    "./Assets/Img/artist/artistCortLundeOgAskeStubkjær.jpg",
+    "./Assets/Img/artist/artistLateNightJam.jpg",
+    "./Assets/Img/artist/artistWashOgKjær.jpg",
+    "./Assets/Img/artist/artistLotharNadeOgLindholt.jpg"
 
 ]
 
