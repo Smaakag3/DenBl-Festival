@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./Assets/Css/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Ikoner fra font awesome -->
     <script src="./Assets/Javascript/app.js" defer></script>
   </head>
   <body>
     <header>
-      <a href="./index.html"><img src="./Assets/Img/indhold/logoBlaFestival.png" alt="Logo for Den blå festival"></a>
+      <a href="./index.html"
+        ><img
+          src="./Assets/Img/indhold/logoBlaFestival.png"
+          alt="Logo for Den blå festival"
+      /></a>
     </header>
     <main>
       <section class="heroImg">
-        <img src="./Assets/Img/indhold/header.png" alt="Et billede af en koncert fra blaa-Festival" class="headerImg" />
+        <img
+          src="./Assets/Img/indhold/header.png"
+          alt="Et billede af en koncert fra blaa-Festival"
+          class="headerImg"
+        />
       </section>
       <section class="forside">
         <article class="introTexst">
@@ -85,5 +98,40 @@
         </article>
       </section>
     </main>
+    <nav class="navigation">
+      <div class="nav-ikon">
+        <a class="nav-a" href="./index.html">
+          <i class="fas fa-home"></i>
+        </a>
+        <p class="nav-p">Hjem</p>
+      </div>
+      <div class="nav-ikon">
+        <a class="nav-a" href="./maps.html">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </a>
+        <p class="nav-p">Kort</p>
+      </div>
+
+      <div class="nav-cirkel">
+        <div class="cirkel">
+          <a class="nav-a" href="./program.html">
+            <i class="fa-solid fa-calendar-days"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-ikon">
+        <a class="nav-a" href="./user.html">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <p class="nav-p">Profil</p>
+      </div>
+      <div class="nav-ikon">
+        <a class="nav-a" href="./sponsor.html">
+          <i class="fa-solid fa-handshake"></i>
+        </a>
+        <p class="nav-p">Sponsor</p>
+      </div>
+    </nav>
   </body>
 </html>

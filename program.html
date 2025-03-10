@@ -5,48 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./Assets/Css/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Ikoner fra font awesome -->
     <script src="./Assets/Javascript/app.js" defer></script>
   </head>
   <body>
-        <header>
-          <a href="./index.html"><img src="./Assets/Img/indhold/logoBlaFestival.png" alt="Logo for Den blå festival"></a>
-        </header>
+    <header>
+      <a href="./index.html"
+        ><img
+          src="./Assets/Img/indhold/logoBlaFestival.png"
+          alt="Logo for Den blå festival"
+      /></a>
+    </header>
     <section class="datoerKnapper">
-      <img class="arrowLeft" src="./Assets/Img/indhold/pilVenstre.png" alt="Pil til venstre">
-      <input type="radio" id="onsdag" name="Onsdag" value="Ons">
+      <img
+        class="arrowLeft"
+        src="./Assets/Img/indhold/pilVenstre.png"
+        alt="Pil til venstre"
+      />
+      <input type="radio" id="onsdag" name="Onsdag" value="Ons" />
       <label class="onsdag" for="onsdag">Ons</label>
-    
-      <input type="radio" id="torsdag" name="Torsdag" value="Tor">
+
+      <input type="radio" id="torsdag" name="Torsdag" value="Tor" />
       <label class="torsdag" for="torsdag">Tor</label>
-    
-      <input type="radio" id="fredag" name="Fredag" value="Fre">
+
+      <input type="radio" id="fredag" name="Fredag" value="Fre" />
       <label class="fredag" for="fredag">Fre</label>
-    
-      <input type="radio" id="loerdag" name="Lørdag" value="Loer">
+
+      <input type="radio" id="loerdag" name="Lørdag" value="Loer" />
       <label class="loerdag" for="loerdag">Lør</label>
-      <img class="arrowRight" src="./Assets/Img/indhold/pilHoejre.png" alt="Pil til højre">
+      <img
+        class="arrowRight"
+        src="./Assets/Img/indhold/pilHoejre.png"
+        alt="Pil til højre"
+      />
     </section>
     <section class="dato">
       <h2>15-08-2025</h2>
     </section>
-    
+
     <section class="sideviserOgSoeg">
       <h1>Program</h1>
       <div class="soeg">
         <h3>Søg...</h3>
-        <img src="./Assets/Img/indhold/soegIkon.svg" alt="Søg forstørrelsesglas">
+        <img
+          src="./Assets/Img/indhold/soegIkon.svg"
+          alt="Søg forstørrelsesglas"
+        />
       </div>
     </section>
-    
+
     <section class="filter">
       <h3>Filter</h3>
-      <img src="./Assets/Img/indhold/filterIkon.svg" alt="Filter knap">
+      <img src="./Assets/Img/indhold/filterIkon.svg" alt="Filter knap" />
     </section>
     <div class="programOversigt">
-
-    <section class="programBand">
-
-    </section>
+      <section class="programBand"></section>
     </div>
+    <nav class="navigation">
+      <div class="nav-ikon">
+        <a class="nav-a" href="./index.html">
+          <i class="fas fa-home"></i>
+        </a>
+        <p class="nav-p">Hjem</p>
+      </div>
+      <div class="nav-ikon">
+        <a class="nav-a" href="./maps.html">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </a>
+        <p class="nav-p">Kort</p>
+      </div>
+
+      <div class="nav-cirkel">
+        <div class="cirkel">
+          <a class="nav-a" href="./program.html">
+            <i class="fa-solid fa-calendar-days"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-ikon">
+        <a class="nav-a" href="./user.html">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <p class="nav-p">Profil</p>
+      </div>
+      <div class="nav-ikon">
+        <a class="nav-a" href="./sponsor.html">
+          <i class="fa-solid fa-handshake"></i>
+        </a>
+        <p class="nav-p">Sponsor</p>
+      </div>
+    </nav>
   </body>
 </html>

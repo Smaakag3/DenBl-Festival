@@ -12,9 +12,13 @@
     <!-- Ikoner fra font awesome -->
     <script src="./Assets/Javascript/app.js" defer></script>
   </head>
-      <header>
-        <a href="./index.html"><img src="./Assets/Img/indhold/logoBlaFestival.png" alt="Logo for Den blå festival"></a>
-      </header>
+  <header>
+    <a href="./index.html"
+      ><img
+        src="./Assets/Img/indhold/logoBlaFestival.png"
+        alt="Logo for Den blå festival"
+    /></a>
+  </header>
   <section class="top-soege">
     <h1>Kort</h1>
     <div class="soegefunktion">
@@ -34,25 +38,33 @@
         <h2>Salling rooftop</h2>
         <div class="adr-tlf1">
           <img
+            class="maps-ikoner"
             src="./Assets/Img/placeringIkon.png"
             alt="placerings ikon fra fontawesome"
           />
-          <p>Nytorv 8, 9000 Aalborg</p>
+          <p class="p-liste">Nytorv 8, 9000 Aalborg</p>
         </div>
         <div class="adr-tlf2">
           <img
+            class="maps-ikoner"
             src="./Assets/Img/smartPhone.png"
             alt="smartphone ikon fra fontawesome"
           />
-          <p>87 78 60 00</p>
+          <p class="p-liste">87 78 60 00</p>
         </div>
       </section>
       <section class="drikkevarer">
         <h2>Drikkevarer</h2>
         <div class="items-priser">
-          <p>Øl ................................................. 50,-</p>
-          <p>Drink ........................................... 100,-</p>
-          <p>Hotdog ........................................ 25,-</p>
+          <p class="p-liste">
+            Øl ................................................. 50,-
+          </p>
+          <p class="p-liste">
+            Drink ........................................... 100,-
+          </p>
+          <p class="p-liste">
+            Hotdog ........................................ 25,-
+          </p>
           <br />
           <img
             id="stjerne"
@@ -60,44 +72,48 @@
             alt="tilbuds stjerne"
           />
           <br />
-          <p>2xØl .............................................. 100,-</p>
-          <p>2xHotdog ..................................... 40,-</p>
+          <p class="p-liste">
+            2xØl .............................................. 100,-
+          </p>
+          <p class="p-liste">
+            2xHotdog ..................................... 40,-
+          </p>
         </div>
       </section>
     </main>
-    <nav>
+    <nav class="navigation">
       <div class="nav-ikon">
-        <a href="#">
+        <a class="nav-a" href="./index.html">
           <i class="fas fa-home"></i>
         </a>
-        <p>Hjem</p>
+        <p class="nav-p">Hjem</p>
       </div>
       <div class="nav-ikon">
-        <a href="#">
+        <a class="nav-a" href="./maps.html">
           <i class="fa-solid fa-map-location-dot"></i>
         </a>
-        <p>Kort</p>
+        <p class="nav-p">Kort</p>
       </div>
 
       <div class="nav-cirkel">
         <div class="cirkel">
-          <a href="#">
+          <a class="nav-a" href="./program.html">
             <i class="fa-solid fa-calendar-days"></i>
           </a>
         </div>
       </div>
 
       <div class="nav-ikon">
-        <a href="#">
+        <a class="nav-a" href="./user.html">
           <i class="fa-solid fa-user"></i>
         </a>
-        <p>Profil</p>
+        <p class="nav-p">Profil</p>
       </div>
       <div class="nav-ikon">
-        <a href="">
+        <a class="nav-a" href="./sponsor.html">
           <i class="fa-solid fa-handshake"></i>
         </a>
-        <p>Sponsor</p>
+        <p class="nav-p">Sponsor</p>
       </div>
     </nav>
   </body>
