@@ -574,3 +574,6 @@ main {
 .nav-cirkel i {
     font-size: 42px;
 }
+.nav-a{
+    text-decoration: none;
+}
