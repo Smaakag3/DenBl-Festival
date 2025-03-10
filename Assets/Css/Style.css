@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* .open-sans-<uniquifier> {
-    font-family: "Open Sans", sans-serif;
+    
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -10,11 +10,12 @@
         "wdth" 100;
 } */
 
-*{
+* {
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -37,6 +38,7 @@ body{
     --h2: 20px;
     --h3: 16px;
     --bigP: 14px;
+    --mediumP: 12px;
     --smallP: 10px;
     --icons: 30px;
 
@@ -46,664 +48,207 @@ body{
 }
 
 /* VIGTIGT KOD TIL 390 brede :) */
+
+
+
 /* HER KODER EMILIA */
+.introTexst , .introPogram , .kortIntro , .populaereKunstner h2{
+    margin: 0 10px 0;
+}
+.introTexst p {
+    margin: var(--smallSpacer) 0 var(--smallSpacer);
+}
+.introPogram p {
+    margin: var(--smallSpacer) 0 var(--mediumSpacer);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    text-decoration-color: white;
+    background-color: var(--buttonBlue);
+    font-size: var(--h2);
+    font-weight: bolder;
+    inline-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 244px;
+    height: 51px;
+    border-radius: 15px;
+    box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--largeSpacer);
+}
 
+.populaereKunstner {
+    background-color: var(--lightBlue);
+    margin: 0 0 0;
+}
 
+.popKunstner img{
+    width: 248px;
+}
 
+.popKunstner{
+    display: grid;
+    justify-content: center;
+}
 
+.navnTid {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--oceanBlue);
+    border-radius: 0  0 15px 15px;
+}
 
-
-
-
-
-
-
-
+.sponser img{
+    width: 181px;
+}
 
 
 
 /* HER KODER Tobias */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HER KODER Thomas */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body{
+    font-family: "Open sans";
+}
+
+.datoerKnapper{
+    display: grid;
+    grid-template-columns: 38px auto auto auto auto 38px;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    background-color: var(--lightBlue);
+}
+.arrowLeft{
+    grid-row: 1;
+}
+.arrowRight{
+    grid-row: 1;
+}
+.dato h2{
+    text-align: center;
+}
+input{
+    grid-row: 1;
+}
+.onsdag{
+    grid-column: 2;
+}
+.torsdag{
+    grid-column: 3;
+}
+.fredag{
+    grid-column: 4;
+}
+.loerdag{
+    grid-column: 5;
+}
+.sideviserOgSoeg{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    max-height: 3rem;
+}
+.soeg{
+    margin-top: 20px;
+    border-radius: 3rem;
+    width: 10rem;
+    height: 2rem;
+    color: #929292;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+}
+.soeg>h3{
+    font-weight: 500;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-top: 2px;
+}
+.soeg>img{
+    margin-right: 0.5rem;
+    color: #929292;
+    max-width: 20px;
+}
+label{
+
+    grid-row: 2;
+    text-align: center;
+}
+.dato{
+    background-color: var(--lightBlue);
+}
+.dato h2{
+font-size: var(--h1);
+margin-top: 0;
+padding-bottom: 1rem;
+}
+
+.filter{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+
+.programBand{
+display: grid;
+}
+
+
+
+h2,p,a{
+    margin: 0.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2{
+    grid-column: 1/3;
+    font-size: var(--h2);
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+p{
+    grid-column: 1/3;
+    max-width: 25rem;
+    font-size: var(--smallP);
+}
+
+.klokke{
+    grid-row-start: 4;
+    grid-column: 1;
+}
+
+.pris{
+    grid-column-start: 2;
+}
+.klokke, .pris{
+    margin-bottom: 1rem;
+}
+a{
+    grid-column: 1/3;
+    font-size: var(--mediumP);
+}
+
+.programImg>img{
+    width: var(--artistImage);
+    border-radius: 0.5rem;
+    margin: 0.3rem;
+}
+.programTekstIndhold{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-start: 3 ;
+}
 
 
 
@@ -843,4 +388,166 @@ body{
 .sponsors img {
     width: var(--sponsorImage);
     margin-top: 25px;
+}
+
+
+
+/* HER KODER Thomas */
+@keyframes hop {
+	0%{
+		transform: scale(100%);
+	}
+	50%{
+		transform: scale(120%);
+	}
+	100%{
+		transform: scale(100%);
+	}
+}
+
+#stjerne{
+    animation: hop 2000ms infinite ease-out;
+}
+
+main {
+    padding-bottom: var(--largeSpacer);
+}
+.maps-body{
+    width: 390px;
+}
+.top-soege {
+    display: flex;
+    background-color: var(--lightBlue);
+    padding: 10px;
+    border-bottom: 3px solid var(--oceanBlue);
+    width: 390px;
+    justify-content: space-between;
+    align-items: center;
+}
+.soegefunktion {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #F1F1F1;
+    height: 30px;
+}
+.soegefunktion input {
+    width: 80px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+.soegefunktion input::placeholder {
+    color: lightgray;
+}
+.soegefunktion img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.5;
+    color: #929292;
+}
+/* Kort, placering og telefon */
+.kort{
+    display: flex;
+    justify-content: center;
+    padding-top: var(--smallSpacer);
+}
+.kort img{
+    width: 350px;
+}
+.kort-adresse{
+    width: 390px;
+    padding-left: 1.1rem;
+}
+.kort-adresse h2{
+    font-size: var(--h2);
+}
+.adr-tlf{
+    display: grid;
+}
+.adr-tlf1{
+    display: flex;
+    align-items: center;
+}
+.adr-tlf1 img{
+    width: 20px;
+    height: 24px;
+}
+.adr-tlf1, .adr-tlf2{
+    padding-left: var(--largeSpacer);
+    font-size: var(--bigP);
+}
+.adr-tlf2{
+    display: flex;
+    align-items: center;
+}
+.adr-tlf2 img{
+    width: 20px;
+    height: 24px;
+}
+/* Øl osv... */
+.drikkevarer{
+    padding-top: var(--smallSpacer);
+    padding-left: 1.1rem;
+    width: 390px;
+    font-size: var(--bigP);
+}
+.drikkevarer h2{
+    font-size: var(--h2);
+}
+.items-priser{
+    padding-left: var(--largeSpacer);
+}
+/* nav */
+nav {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 390px;
+    background: #0072AB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-ikon {
+    text-align: center;
+    flex: 1;
+}
+.nav-ikon i {
+    font-size: 24px;
+    display: block;
+    color: white;
+}
+.nav-ikon p {
+    font-size: 12px;
+    color: white;
+    margin: 5px 0 0;
+}
+.nav-cirkel {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 3rem;
+}
+.cirkel {
+    width: 60px;
+    height: 60px;
+    background: #0072AB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.cirkel a{
+    color: white;
+}
+.nav-cirkel i {
+    font-size: 32px;
 }
