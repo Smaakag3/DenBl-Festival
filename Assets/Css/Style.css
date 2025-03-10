@@ -10,12 +10,12 @@
         "wdth" 100;
 } */
 
-*{
+* {
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -38,6 +38,7 @@ body{
     --h2: 20px;
     --h3: 16px;
     --bigP: 14px;
+    --mediumP: 12px;
     --smallP: 10px;
     --icons: 30px;
 
@@ -117,8 +118,188 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HER KODER Tobias */
 
+body{
+    font-family: "Open sans";
+}
+
+.datoerKnapper{
+    display: grid;
+    grid-template-columns: 38px auto auto auto auto 38px;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    background-color: var(--lightBlue);
+}
+.arrowLeft{
+    grid-row: 1;
+}
+.arrowRight{
+    grid-row: 1;
+}
+.dato h2{
+    text-align: center;
+}
+input{
+    grid-row: 1;
+}
+.onsdag{
+    grid-column: 2;
+}
+.torsdag{
+    grid-column: 3;
+}
+.fredag{
+    grid-column: 4;
+}
+.loerdag{
+    grid-column: 5;
+}
+.sideviserOgSoeg{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    max-height: 3rem;
+}
+.soeg{
+    margin-top: 20px;
+    border-radius: 3rem;
+    width: 10rem;
+    height: 2rem;
+    color: #929292;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+}
+.soeg>h3{
+    font-weight: 500;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-top: 2px;
+}
+.soeg>img{
+    margin-right: 0.5rem;
+    color: #929292;
+    max-width: 20px;
+}
+label{
+
+    grid-row: 2;
+    text-align: center;
+}
+.dato{
+    background-color: var(--lightBlue);
+}
+.dato h2{
+font-size: var(--h1);
+margin-top: 0;
+padding-bottom: 1rem;
+}
+
+.filter{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+
+.programBand{
+display: grid;
+}
+
+
+
+h2,p,a{
+    margin: 0.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2{
+    grid-column: 1/3;
+    font-size: var(--h2);
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+p{
+    grid-column: 1/3;
+    max-width: 25rem;
+    font-size: var(--smallP);
+}
+
+.klokke{
+    grid-row-start: 4;
+    grid-column: 1;
+}
+
+.pris{
+    grid-column-start: 2;
+}
+.klokke, .pris{
+    margin-bottom: 1rem;
+}
+a{
+    grid-column: 1/3;
+    font-size: var(--mediumP);
+}
+
+.programImg>img{
+    width: var(--artistImage);
+    border-radius: 0.5rem;
+    margin: 0.3rem;
+}
+.programTekstIndhold{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-start: 3 ;
+}
 
 
 
