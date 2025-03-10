@@ -78,6 +78,25 @@ body{
 
 
 /* HER KODER Thomas */
+@keyframes hop {
+	0%{
+		transform: scale(100%);
+	}
+	50%{
+		transform: scale(120%);
+	}
+	100%{
+		transform: scale(100%);
+	}
+}
+
+#stjerne{
+    animation: hop 2000ms infinite ease-out;
+}
+
+main {
+    padding-bottom: var(--largeSpacer);
+}
 .maps-body{
     width: 390px;
 }
@@ -169,7 +188,54 @@ body{
 .items-priser{
     padding-left: var(--largeSpacer);
 }
-
+/* nav */
+nav {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 390px;
+    background: #0072AB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav-ikon {
+    text-align: center;
+    flex: 1;
+}
+.nav-ikon i {
+    font-size: 24px;
+    display: block;
+    color: white;
+}
+.nav-ikon p {
+    font-size: 12px;
+    color: white;
+    margin: 5px 0 0;
+}
+.nav-cirkel {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 3rem;
+}
+.cirkel {
+    width: 60px;
+    height: 60px;
+    background: #0072AB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.cirkel a{
+    color: white;
+}
+.nav-cirkel i {
+    font-size: 32px;
+}
 
 
 

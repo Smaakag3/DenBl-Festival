@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kort side</title>
     <link rel="stylesheet" href="./Assets/Css/Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Ikoner fra font awesome -->
     <script src="./Assets/Javascript/app.js" defer></script>
   </head>
   <section class="top-soege">
@@ -12,43 +17,85 @@
     <div class="soegefunktion">
       <input type="text" placeholder="Søg..." />
       <img
-        src="./Assets/Img/magnifying-glass-solid 2.png"
+        src="./Assets/Img/magnifyingGlass.png"
         alt="Søge ikon fra fontawesome.com"
       />
     </div>
   </section>
   <body class="maps-body">
-    <div class="kort">
-      <img src="./Assets/Img/indhold/map.png" alt="Kort fra google" />
-    </div>
-    <section class="kort-adresse">
-      <h2>Salling rooftop</h2>
-      <div class="adr-tlf1">
-        <img
-          src="./Assets/Img/Group.png"
-          alt="placerings ikon fra fontawesome"
-        />
-        <p>Nytorv 8, 9000 Aalborg</p>
+    <main>
+      <div class="kort">
+        <img src="./Assets/Img/indhold/map.png" alt="Kort fra google" />
       </div>
-      <div class="adr-tlf2">
-        <img
-          src="./Assets/Img/Smartphone-1.png"
-          alt="smartphone ikon fra fontawesome"
-        />
-        <p>87 78 60 00</p>
+      <section class="kort-adresse">
+        <h2>Salling rooftop</h2>
+        <div class="adr-tlf1">
+          <img
+            src="./Assets/Img/placeringIkon.png"
+            alt="placerings ikon fra fontawesome"
+          />
+          <p>Nytorv 8, 9000 Aalborg</p>
+        </div>
+        <div class="adr-tlf2">
+          <img
+            src="./Assets/Img/smartPhone.png"
+            alt="smartphone ikon fra fontawesome"
+          />
+          <p>87 78 60 00</p>
+        </div>
+      </section>
+      <section class="drikkevarer">
+        <h2>Drikkevarer</h2>
+        <div class="items-priser">
+          <p>Øl ................................................. 50,-</p>
+          <p>Drink ........................................... 100,-</p>
+          <p>Hotdog ........................................ 25,-</p>
+          <br />
+          <img
+            id="stjerne"
+            src="./Assets/Img/tilbudsStjerne.png"
+            alt="tilbuds stjerne"
+          />
+          <br />
+          <p>2xØl .............................................. 100,-</p>
+          <p>2xHotdog ..................................... 40,-</p>
+        </div>
+      </section>
+    </main>
+    <nav>
+      <div class="nav-ikon">
+        <a href="#">
+          <i class="fas fa-home"></i>
+        </a>
+        <p>Hjem</p>
       </div>
-    </section>
-    <section class="drikkevarer">
-      <h2>Drikkevarer</h2>
-      <div class="items-priser">
-        <p>Øl ................................................. 50,-</p>
-        <p>Drink ........................................... 100,-</p>
-        <p>Hotdog ........................................ 25,-</p>
-        <br />
-        <br />
-        <p>2xØl .............................................. 100,-</p>
-        <p>2xHotdog ..................................... 40,-</p>
+      <div class="nav-ikon">
+        <a href="#">
+          <i class="fa-solid fa-map-location-dot"></i>
+        </a>
+        <p>Kort</p>
       </div>
-    </section>
+
+      <div class="nav-cirkel">
+        <div class="cirkel">
+          <a href="#">
+            <i class="fa-solid fa-calendar-days"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-ikon">
+        <a href="#">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <p>Profil</p>
+      </div>
+      <div class="nav-ikon">
+        <a href="">
+          <i class="fa-solid fa-handshake"></i>
+        </a>
+        <p>Sponsor</p>
+      </div>
+    </nav>
   </body>
 </html>
